@@ -131,6 +131,7 @@ header .content h3{
 
 .about .description{
 	float:left;
+	padding-top: 60px;
 }
 .about .image{
 	float:left;
