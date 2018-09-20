@@ -119,8 +119,8 @@ header .content h3{
 }
 .about{
 	background:#eee;
-	height: 100%;
 	position: relative;
+	height: 100%;
 
 }
 .about:after{
@@ -132,6 +132,9 @@ header .content h3{
 .about .description{
 	float:left;
 	padding-top: 60px;
+	width:50%;
+	height: 100%;
+	
 }
 .about .image{
 	float:left;
@@ -187,11 +190,16 @@ header .content h3{
 		width: 100%;
 		background: #eee;
 	}
+	.about .image img{
+		opacity: 1;
+		transform: scale(1);
+	}
 	.about .description{
 		position: absolute;
 		left:0;
 		top:0;
 		width: 100%;
-		background: rgba(0,0,0,.4);
+		background: rgba(44,44,44,.95);
+		color: #fff;
 	}
 }
